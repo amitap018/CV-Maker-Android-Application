@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skills">
+
+    <TextView
+        android:id="@+id/textView1_in_skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Skill Details"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="89dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_skill_in_skill"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp"
+        android:hint="Enter Skills">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/skill_in_skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_add_in_skills"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:layout_weight="1"
+        android:text="+ADD"
+        android:textSize="18sp"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/btn_save_in_skills"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:layout_weight="1"
+        android:text="save"
+        android:textSize="18sp"
+        app:cornerRadius="10dp" />
+
+</FrameLayout>

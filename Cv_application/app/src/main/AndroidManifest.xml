@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amit018.cv_application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher4"
+        android:label="CV Maker"
+        android:roundIcon="@mipmap/ic_launcher4_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cv_application">
+        <activity
+            android:name=".sample_template_11"
+            android:exported="false"
+            android:parentActivityName=".layout_example"/>
+        <activity
+            android:name=".spalshActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".education"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".certificate"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".grants"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".publications"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".award"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".skills"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".experience"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".personal_info"
+            android:exported="false"
+            android:parentActivityName=".layout_example" />
+        <activity
+            android:name=".layout_example"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

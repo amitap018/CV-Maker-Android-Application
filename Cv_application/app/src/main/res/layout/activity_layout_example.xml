@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout_example">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-216dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_contact"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"
+                android:text="Personal Information"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_exp"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Experience"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_edu"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Education"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_skill"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Skills"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_award"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Awards &amp; Honours"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_public"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Publications"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_grants"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Grants &amp; Scholarships"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_certificate"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Certifications"
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/btn_viewCv"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Generate CV"
+                android:textSize="18sp"
+                app:cornerRadius="15dp"
+                android:layout_marginBottom="40dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
